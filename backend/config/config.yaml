@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: 123456
+  dbname: smart_mobility
+  charset: utf8mb4
+
+jwt:
+  secret: smart_mobility_jwt_secret_key_2024
+  expire: 7200  # 2小时
+
+websocket:
+  max_connections: 1000
+  read_buffer_size: 1024
+  write_buffer_size: 1024
